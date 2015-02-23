@@ -1,0 +1,257 @@
+First Time=false
+Height 1080=1081
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAO7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHABhAGMAdABpAG8AbgBzAFQAbwBvAGwAQgBhAHIBAAACc/////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Version=2.4.0-beta3
+Width 1920=1921
+
+[Advanced]
+AutoMount=true
+
+[Archives]
+Compression level=1
+Supported Packers=tar,gzip,bzip2,lzma,xz,unzip,zip,lha,cpio,unrar,arj,unarj,unace,dpkg,7z,rpm
+lastUsedPacker=arj
+
+[Custom Selection Mode]
+Immediate Context Menu=true
+Left Preserves=false
+Left Selects=true
+QT Selection=false
+Right Preserves=false
+Right Selects=true
+ShiftCtrl Left Selects=false
+Space Calc Space=true
+Space Moves Down=true
+
+[Dependencies]
+7z=/usr/bin/7z
+arj=/usr/bin/arj
+bzip2=/usr/bin/bzip2
+cfv=/usr/bin/cfv
+checksum utility=/usr/bin/md5sum
+cpio=/usr/bin/cpio
+diff utility=/usr/bin/diff
+dpkg=/usr/bin/dpkg
+gzip=/usr/bin/gzip
+kdesu=/usr/bin/kdesu
+kget=/usr/bin/kget
+kmail=/usr/bin/kmail
+krename=/usr/bin/krename
+krusader=/usr/bin/krusader
+lha=/usr/bin/lha
+locate=/usr/bin/locate
+lzma=/usr/bin/lzma
+mailer=/usr/bin/thunderbird
+md5deep=/usr/bin/md5deep
+md5sum=/usr/bin/md5sum
+mount=/usr/bin/mount
+rpm=/usr/bin/rpm
+sha1deep=/usr/bin/sha1deep
+sha1sum=/usr/bin/sha1sum
+sha224sum=/usr/bin/sha224sum
+sha256deep=/usr/bin/sha256deep
+sha256sum=/usr/bin/sha256sum
+sha384sum=/usr/bin/sha384sum
+sha512sum=/usr/bin/sha512sum
+tar=/usr/bin/tar
+thunderbird=/usr/bin/thunderbird
+tigerdeep=/usr/bin/tigerdeep
+umount=/usr/bin/umount
+unace=/usr/bin/unace
+unarj=/usr/bin/unarj
+unrar=/usr/bin/unrar
+unzip=/usr/bin/unzip
+updatedb=/usr/bin/updatedb
+whirlpooldeep=/usr/bin/whirlpooldeep
+xz=/usr/bin/xz
+zip=/usr/bin/zip
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Move To Trash=true
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KFileDialog Settings]
+Height 1080=522
+Width 1920=960
+
+[KPropertiesDialog]
+Height 1080=405
+Width 1920=577
+
+[Konfigurator]
+Window Height=680
+Window Maximized=false
+Window Width=900
+
+[KrInterDetailedView]
+AutoResizeColumns=false
+IconSize=12
+Saved State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t®\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x03â\x00\x00\x00\t\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x02,\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00^\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00x\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00
+
+[KrViewerWindow]
+Window Height=-1
+Window Maximized=true
+Window Width=-1
+
+[ListPanelButtons]
+Icons=true
+
+[Locate]
+Case Sensitive=false
+Don't Search In Path=false
+Existing Files=false
+Search For=getche
+
+[Look&Feel]
+Back Button Visible=true
+Equal Button Visible=true
+Filelist Font=Source Code Pro for Powerline,10,-1,5,50,0,0,0,0,0
+Forward Button Visible=true
+Home Button Visible=true
+Mouse Selection=0
+Numeric permissions=true
+Quicksearch Position=top
+Show Hidden=false
+Show Size In Bytes=true
+Show splashscreen=false
+SyncBrowse Button Visible=true
+
+[MediaMenu]
+ShowFSType=true
+ShowPath=true
+ShowSize=Always
+
+[MountMan]
+Last State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01ó\x00\x00\x00\x06\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00X\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00,\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00X\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00Ñ\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x007\x00\x00\x00\x01\x00\x00\x00\x00
+ShowOnlyRemovable=false
+Window Height=319
+Window Maximized=false
+Window Width=600
+
+[Open-with settings]
+CompletionMode=5
+History=vlc,/usr/bin/vlc %U
+
+[PanelLayout]
+FrameColor=none
+FrameShadow=Plain
+FrameShape=NoFrame
+Layout=krusader:compact
+
+[Private]
+Height 1080=1081
+Maximized=true
+PopularUrls=file:///run/media/andrzej/Paszporcik/audio/mp3/,file:///run/media/andrzej/Paszporcik/audio/,file:///run/media/andrzej/Paszporcik/audio/mp3/Kosoglos/,file:///run/media/andrzej/Paszporcik/audio/audio/,file:///run/media/andrzej/Paszporcik/audio/audio/Henning Mankell/,file:///run/media/andrzej/Paszporcik/audio/mp3/Collins.Suzanne-Igrzyska.Smierci.(up.by.Equalizer)/,file:///run/media/andrzej/Paszporcik/audio/audio/Henning Mankell/Mankell.Henning-Falszywy.trop(by-tomson)/,file:///run/media/andrzej/Paszporcik/audio/audio/Henning Mankell/Mankell.Henning-Morderca.bez.twarzy.(up.by.Equalizer)/,file:///run/media/andrzej/Paszporcik/audio/mp3/Collins.Suzanne-W.pierscieniu.ognia/,file:///run/media/andrzej/Paszporcik/audio/audio/Henning Mankell/Mankell.Henning-Psy.z.Rygi/,file:///run/media/andrzej/Paszporcik/audio/mp3/Collins.Suzanne-W.pierscieniu.ognia/Collins.Suzanne-W.pierscieniu.ognia/,file:///run/media/andrzej/Paszporcik/audio/audio/Henning Mankell/Mankell.Henning-O.krok/,file:///run/media/andrzej/Paszporcik/audio/audio/Henning Mankell/Mankell.Henning-Piata.kobieta/,krarc:/run/media/andrzej/Paszporcik/audio/mp3/Asimov Isaac - Roboty ≈öwiat robot√≥w.zip/,file:///home/andrzej/,krarc:/run/media/andrzej/Paszporcik/audio/mp3/Asimov Isaac - Roboty ≈öwiat robot√≥w.zip/Asimov Isaac - Roboty %3Fwiat robot%3Fw/,file:///run/media/andrzej/Paszporcik/audio/mp3/Asimov Isaac - Roboty ≈öwiat robot√≥w/,file:///run/media/andrzej/Paszporcik/audio/mp3/Martin.George.R.R-Nawalnica.mieczy.Stal.i.snieg/,file:///run/media/andrzej/Paszporcik/audio/mp3/≈öwiat/,file:///run/media/andrzej/Paszporcik/audio/mp3/Roboty/,file:///run/media/andrzej/Paszporcik/audio/mp3/robot√≥w/,file:///run/media/andrzej/Paszporcik/audio/mp3/Isaac/,file:///run/media/andrzej/Paszporcik/audio/mp3/-/,file:///run/media/andrzej/Paszporcik/audio/audio/Isaac Asimov/,file:///run/media/andrzej/Paszporcik/audio/audio/Isaac Asimov/Fundacja/,file:///run/media/andrzej/Paszporcik/audio/audio/Isaac Asimov/Prady przestrzeni/,file:///run/media/andrzej/Paszporcik/audio/ok≈Çadki/,file:///run/media/andrzej/Paszporcik/audio/mp3/Mankell.Henning-Niespokojny.czlowiek.(up.by.Equalizer)/,krarc:/run/media/andrzej/Paszporcik/audio/mp3/Martin.George.R.R-Nawalnica.mieczy.Stal.i.snieg.part1.rar/,file:///run/media/andrzej/Paszporcik/audio/RAR/,file:///run/media/andrzej/Paszporcik/audio/audio/Henning Mankell/Mankell.Henning-Reka.(up.by.Equalizer)/,file:///run/media/andrzej/Paszporcik/audio/audio/Henning Mankell/Mankell.Henning-Nim.nadejdzie.mroz/
+PopularUrlsRank=2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Splitter Sizes=949,968
+Start Position=0,34
+Start Size=1920,1080
+Width 1920=1921
+cmdline history=cmd,fish://buildervm24
+newFTP Completion list=buildervm24:3,frodo:8,ftp.cadsoft.de:2,ftp.perso.ovh.net:3,ftp://ftp.pro.ovh.net/www/sw/:1,192.168.1.221:3
+newFTP History list=frodo,ftp.perso.ovh.net,ftp://ftp.pro.ovh.net/www/sw/,192.168.1.221,ftp.cadsoft.de,buildervm24
+
+[Protocols]
+Handled Protocols=tar,krarc,iso
+Mimes For iso=application/x-cd-image
+Mimes For krarc=application/zip,application/x-xz,application/x-rpm,application/x-rar,application/x-lzma,application/x-lha,application/x-deb,application/x-cpio,application/x-bzip,application/x-arj,application/x-ace,application/x-7z-compressed
+Mimes For tar=application/x-xz-compressed-tar,application/x-tarz,application/x-tar,application/x-lzma-compressed-tar,application/x-compressed-tar,application/x-bzip-compressed-tar
+
+[QueueManager]
+Active=0
+Queues=domy≈õlne
+Window Height=398
+Window Width=730
+Window X=1078
+Window Y=398
+
+[Search]
+ContainsText Completion=MRF24WB0M,MRFWB0M_INT_SOURCE,enc424j600,IPAddress,TOGGLE_TRIGGER,HIGH,HAVE_IPV6,delayMicroseconds,dlopen,sprintf,spiSendByte,ssid,sh4,soup_message_headers_get_content_type,soup_message_headers_set_content_disposition,soup_form_decode_multipart,soup_buffer_get_data,pFunc,putch,pthread_cond_broadcast,pids,ntp,main(,mrf24,minidlna,wifiSetNetwork,with-threads,writeCommand(SLEEP_OUT);,writeData,GET_MACADDR_CMD,G_THREADS_ENABLED,G_THREADS_MANDATORY,G_THREAD_SOURCE,WF_INT_,WaitForRawMoveComplete,Packet,PORTS_BIT_POS_12,PTR_BASE,PARTIAL_AREA,DO_IPV6,DMX_SET_PES_FILTER,DRV_WIFI_MRF24W_Tasks_ISR,in6addr_any,initializeLCD,ioctl,ipl1,zg_scan_start,g_mutex_trylock,g_mutex_unlock,g_mutex_free,g_mutex_lock,g_cclosure_marshal_generic,g_cclosure_marshal_generic_va,g_cond_broadcast,g_cond_timed_wait,g_value_get_schar,g_value_get_uchar,g_thread_create,g_thread_create_full,g_thread_supported,gthread-posix,gthread-posix.c,gthread-impl.c,gpio,SOUP_MESSAGE_HEADERS_MULTIPART,SoupCookie,SLEEP_OUT,ffi,ffi_type_pointer,ffi_type_uchar,ffi_type ,factory,#define ffi_type,#define G_THREADS_ENABLED,_gio_marshal_BOOLEAN__VOID',_SPI1_RX_VECTOR,_SPI1_TX_VECTOR,__ISR,_EXTERNAL_0_VECTOR,cond_broadcast,checking for growing stack pointer,checking for posix getpwuid_r,checking for posix getgrgid_r,close(,libffi,-fPIC,CONFIG_POSIX_MQUEUE,CONFIG_PHY_MICREL_KSZ9021,kml,'o',('o',U_BOOT_CMD,BIT_6,EMAC_TX_DESCRIPTORS,ETH_PHY_CFG_RMII
+ContainsText History=ETH_PHY_CFG_RMII,EMAC_TX_DESCRIPTORS,PARTIAL_AREA,writeData,initializeLCD,writeCommand(SLEEP_OUT);,SLEEP_OUT,PTR_BASE,PORTS_BIT_POS_12,BIT_6,MRFWB0M_INT_SOURCE,DRV_WIFI_MRF24W_Tasks_ISR,_EXTERNAL_0_VECTOR,__ISR,_SPI1_RX_VECTOR,_SPI1_TX_VECTOR,ipl1,DMX_SET_PES_FILTER,close(,U_BOOT_CMD,gpio,factory,WaitForRawMoveComplete,('o','o'
+Feed To Listbox Counter=35
+SearchFor Completion=*,*.c,*.c *.h,*.c *.h *,*.c *.h *.cpp,*.c *.h *.cpp *.hpp,*.h,*.hex,*.m4b,*.rar,*.lbr,*.pdf,*.gld,*busybox*,*kamie*.rar,*kaligula*,*MCP4551*,*24*.inc,*p24*.inc,*p24F*.inc,*p24F*302*.inc,*p24FH*.inc,*pogranicza*,*trap*,*icc*,*abilis*, *.h,mapfile,mrf24,mx25*,xlocale.h,getche.c,dlfcn.h,Smieszne_zdjecie.mpg,ulimit*,u*.lbr,u-boot.bin,instrukcja*,initializeLCD,idl4k.scr,idl3k.scr,rowli*.rar,execinfo.h,bossac,bob*,UDOO_defconfig,Ma≈Çy*,Maly*,poky*,p24FHV3*,p24FHV3*.*,p16f870.inc,DS1807.lbr,void initializeLCD(void)
+SearchFor History=*pogranicza*,*kaligula*,*,initializeLCD,void initializeLCD(void),u-boot.bin,p16f870.inc,idl3k.scr,mx25*,*abilis*,*.h,*.c *.h,*.c,*icc*,*trap*,*.hex,*.gld,*p24F*302*.inc,*p24F*.inc,*p24FH*.inc,*p24*.inc,*24*.inc,p24FHV3*.*,p24FHV3*,DS1807.lbr
+Window Height=649
+Window Maximized=false
+Window Width=1262
+
+[Search][ResultView]
+AutoResizeColumns=false
+Descending Sort Order=0
+Filter=3
+FilterApplysToDirs=false
+IconSize=22
+Saved State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00ˇˇˇˇ\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t®\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x04∏\x00\x00\x00\t\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x03`\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00s\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00x\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00
+ShowPreviews=false
+Sort Column=-1
+
+[Startup]
+Left Side Is Active=true
+Splitter Sizes=948,966
+Starter Profile Name=
+Terminal Emulator Splitter Sizes=282,601
+UI Save Settings=false
+Vertical Mode=false
+
+[Startup][Left Tab Bar]
+ActiveTab=0
+
+[Startup][Left Tab Bar][Tabs][Tab0]
+Properties=0
+Type=0
+Url=/run/media/andrzej/Paszporcik/audio/mp3
+
+[Startup][Left Tab Bar][Tabs][Tab0][History]
+CurrentIndex=0
+CurrentItems=Mortka.Marcin-Miecz.i.kwiaty.T2.(up.by.Equalizer),mp3,..,..,..,Mankell.Henning-Falszywy.trop(by-tomson),..,Mankell.Henning-Morderca.bez.twarzy.(up.by.Equalizer),..,Mankell.Henning-Psy.z.Rygi,..,Mankell.Henning-O.krok,..
+Entrys=file:///run/media/andrzej/Paszporcik/audio/mp3,file:///run/media/andrzej/Paszporcik/audio,file:///run/media/andrzej/Paszporcik/audio/audio,file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell,file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell/Mankell.Henning-Falszywy.trop(by-tomson),file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell,file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell/Mankell.Henning-Morderca.bez.twarzy.(up.by.Equalizer),file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell,file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell/Mankell.Henning-Psy.z.Rygi,file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell,file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell/Mankell.Henning-O.krok,file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell,file:///run/media/andrzej/Paszporcik/audio/audio/Henning%20Mankell/Mankell.Henning-Piata.kobieta
+
+[Startup][Left Tab Bar][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=0
+Filter=3
+FilterApplysToDirs=false
+IconSize=22
+Saved State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t®\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x03ÿ\x00\x00\x00\t\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x02{\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00^\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00x\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00
+ShowPreviews=false
+Sort Column=0
+
+[Startup][Right Tab Bar]
+ActiveTab=0
+
+[Startup][Right Tab Bar][Tabs][Tab0]
+Properties=0
+Type=0
+Url=/run/media/andrzej/Paszporcik/audio/RAR
+
+[Startup][Right Tab Bar][Tabs][Tab0][History]
+CurrentIndex=0
+CurrentItems=Mankell.Henning-Mezczyzna.ktory.sie.usmiechal.(up.by.Equalizer).rar,..,SPRBFU~8.RAR,RAR,..,moy psziyadziel galigulok.rar,Downloads,72www.bin,tftpboot,..,..,..,..
+Entrys=file:///run/media/andrzej/Paszporcik/audio/RAR,krarc:/run/media/andrzej/Paszporcik/audio/RAR/SPRBFU~8.RAR,file:///run/media/andrzej/Paszporcik/audio/RAR,file:///run/media/andrzej/Paszporcik/audio,file:///run/media/andrzej/Paszporcik/audio/mp3,file:///home/andrzej/Downloads,file:///home/andrzej,file:///tftpboot,file:///,file:///home,file:///home/andrzej,file:///home/andrzej/work,file:///home/andrzej/work/abilis
+
+[Startup][Right Tab Bar][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=0
+Filter=3
+FilterApplysToDirs=false
+IconSize=22
+Saved State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t®\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x03ÿ\x00\x00\x00\t\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x02{\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00^\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00x\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00
+ShowPreviews=false
+Sort Column=0
+
+[UserActions]
+Fixed Font=Monospace,8,-1,5,50,0,0,0,0,0
+Normal Font=Sans Serif,8,-1,5,50,0,0,0,0,0
+Use Fixed Font=true
+
+[ViewerModule]
+FirstRun=false
