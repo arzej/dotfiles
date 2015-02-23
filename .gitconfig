@@ -1,0 +1,7 @@
+[user]
+	name = Andrzej Kapluk
+	email = akapluk@inverto.tv
+[color]
+	ui = true
+[push]
+	default = simple
