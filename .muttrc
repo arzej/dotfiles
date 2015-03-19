@@ -20,10 +20,19 @@ set message_cachedir=~/.mutt/cache/bodies
 set certificate_file=~/.mutt/certificates
 
 set move = no
+set delete = yes
+set edit_hdrs
+set include
+set reply_to
+set abort_nosubject=no
 
 set sort = 'threads'
 set sort_aux = 'last-date-received'
-set imap_check_subscribed
+set imap_check_subscribed=yes
+
+set sig_dashes = no # don't append -- as I use only my name as a sig
+set attribution = " %n wrote:\n" # I don't like lengthy attributions as well alternates '(username|altusername)([-+].*)?@.*'
+set hdr_format="%4C %Z %{%m/%d} %-15.15F (%4c) %s" # format of the index
 
 #======================================================#
 # Order of headers and what to show
@@ -58,3 +67,16 @@ set smart_wrap       # Don't wrap mid-word
 set pager_context=5  # Retain 5 lines of previous page when scrolling.
 set status_on_top    # Status bar on top.
 push <show-version>  # Shows mutt version at startup
+
+# colors stuff outside
+source ~/.mutt/themes/mutt-colors-solarized/mutt-colors-solarized-dark-256.muttrc
+
+# gpg
+# source ~/.mutt/gpg.rc
+# set crypt_autosign = yes
+
+# sidebar
+# set sidebar_visible=yes
+# set sidebar_width=30
+
+# set query_command = '~/opt/goobook-read-only/contactos.py "%s"'
