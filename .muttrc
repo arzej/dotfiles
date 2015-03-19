@@ -1,37 +1,47 @@
 #======================================================#
 # Boring details
-set realname =john
-set from = john.example@gmail.com
-set use_from = yes
-set envelope_from ="yes"
-set sendmail="/usr/bin/msmtp"
 
-# If not set in environment variables:
-set spoolfile = /var/spool/mail/john
+set imap_user = "user@gmail.com"
+set imap_pass = "pass"
 
-#======================================================#
-# Folders
-set folder="~/Mail"                # Mailboxes in here
-set record="+sent"                 # where to store sent messages
-set postponed="+postponed"         # where to store draft messages
-set move=no                        # Don't move mail from the spool.
+set smtp_url = "smtp://username@smtp.gmail.com:587/"
+set smtp_pass = "pass"
+set from = "user@gmail.com"
+set realname = "real name"
 
-#======================================================#
-# Watch these mailboxes for new mail:
-mailboxes ! +Fetchmail +slrn +mutt
-set sort_browser=alpha    # Sort mailboxes by alpha(bet)
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed="+[Gmail]/Drafts"
+set record="+[Gmail]/Sent Mail"
+
+
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+
+set move = no
+
+set sort = 'threads'
+set sort_aux = 'last-date-received'
+set imap_check_subscribed
 
 #======================================================#
 # Order of headers and what to show
+
 hdr_order Date: From: User-Agent: X-Mailer \
           To: Cc: Reply-To: Subject:
 ignore *
 unignore Date: From: User-Agent: X-Mailer  \
          To: Cc: Reply-To: Subject:
-               
+
+ignore "Authentication-Results:"
+ignore "DomainKey-Signature:"
+ignore "DKIM-Signature:"
+
 #======================================================#
 # which editor do you want to use? 
 # vim of course!
+
 set editor="vim -c 'set tw=70 et' '+/^$' " 
 set edit_headers          # See the headers when editing
 
@@ -42,6 +52,7 @@ set sort_alias=alias     # sort aliases in alpha order by alias name
 
 #======================================================#
 # Odds and ends
+
 set markers          # mark wrapped lines of text in the pager with a +
 set smart_wrap       # Don't wrap mid-word
 set pager_context=5  # Retain 5 lines of previous page when scrolling.
