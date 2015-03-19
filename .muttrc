@@ -68,15 +68,43 @@ set pager_context=5  # Retain 5 lines of previous page when scrolling.
 set status_on_top    # Status bar on top.
 push <show-version>  # Shows mutt version at startup
 
-# colors stuff outside
+## colors stuff outside
 source ~/.mutt/themes/mutt-colors-solarized/mutt-colors-solarized-dark-256.muttrc
 
-# gpg
+## gpg
 # source ~/.mutt/gpg.rc
 # set crypt_autosign = yes
 
-# sidebar
-# set sidebar_visible=yes
-# set sidebar_width=30
+## sidebar
+set sidebar_delim='|'
+set sidebar_sort=yes
+color sidebar_new yellow default
+set sidebar_visible=yes
+set sidebar_width=30
+macro index b '<enter-command>toggle sidebar_visible<enter><refresh>'
+macro pager b '<enter-command>toggle sidebar_visible<enter><redraw-screen>'
+
+## Ctrl-n, Ctrl-p to select next, previous folder.
+## Ctrl-o to open selected folder.
+bind index,pager \CP sidebar-prev
+bind index,pager \CN sidebar-next
+bind index,pager \CO sidebar-open
 
 # set query_command = '~/opt/goobook-read-only/contactos.py "%s"'
+
+set send_charset="us-ascii:utf-8"
+
+#####
+#Any imap folders that should be checked regularly for new mail should be listed here: 
+
+#mailboxes =INBOX =family
+#mailboxes imaps://imap.gmail.com/INBOX imaps://imap.gmail.com/family
+
+# Allow Mutt to open new imap connection automatically.
+unset imap_passive
+
+# Keep IMAP connection alive by polling intermittently (time in seconds).
+set imap_keepalive = 300
+
+# How often to check for new mail (time in seconds).
+set mail_check = 120
