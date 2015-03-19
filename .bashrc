@@ -141,6 +141,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# Sets the Mail Environment Variable
+MAIL=/var/spool/mail/andrzej && export MAIL
 
 # some more ls aliases
 alias ll='ls -alF'
