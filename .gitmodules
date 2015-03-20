@@ -18,7 +18,7 @@
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule ".vim/bundle/vim-snipmate"]
 	path = .vim/bundle/vim-snipmate
-	url = git://github.com/garbas/vim-snipmate.git
+	url = https://github.com/garbas/vim-snipmate.git
 [submodule ".vim/bundle/tlib_vim"]
 	path = .vim/bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
@@ -30,7 +30,7 @@
 	url = https://github.com/airblade/vim-gitgutter.git
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
-	url = git://github.com/majutsushi/tagbar
+	url = https://github.com/majutsushi/tagbar
 [submodule ".vim/bundle/vim-snippets"]
 	path = .vim/bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
@@ -39,10 +39,13 @@
 	url = https://github.com/Lokaltog/powerline.git
 [submodule ".vim/bundle/vimwiki"]
 	path = .vim/bundle/vimwiki
-	url = https://github.com/vimwiki/vimwiki.git
+	url = https://github.com/vimwiki/vimwiki
 [submodule ".vim/bundle/vim-move"]
 	path = .vim/bundle/vim-move
-	url = https://github.com/matze/vim-move.git
+	url = https://github.com/matze/vim-move
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule ".vim/bundle/https:/github.com/kien/ctrlp.vim.git"]
+	path = .vim/bundle/https:/github.com/kien/ctrlp.vim.git
+	url = https://github.com/mileszs/ack.vim.git
