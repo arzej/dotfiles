@@ -117,3 +117,5 @@ alias szczecin='eog "http://www.meteo.pl/um/metco/mgram_pict.php?ntype=0u&row=37
 alias wroclaw='eog "http://www.meteo.pl/um/metco/mgram_pict.php?ntype=0u&row=436&col=181&lang=pl"'
 alias poznan='eog "http://www.meteo.pl/um/metco/mgram_pict.php?ntype=0u&row=400&col=180&lang=pl"'
 # ===================
+#
+alias log='watch -n 0.1 "dmesg | tail -n $((LINES-6))"'
