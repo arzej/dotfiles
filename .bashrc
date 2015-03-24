@@ -168,6 +168,9 @@ fi
 export TERM="xterm-256color"
 export EDITOR="vim"
 
+## MacOS
+# cleanup MacOS .DStore & ._* files
+alias rmmac='find . -iname ".DS*" -exec rm -rf {} \; ; find . -iname "._*" -exec rm -rf {} \;' 
 
 # Prompt for powerline-bash or powerline
 function _update_ps1()
