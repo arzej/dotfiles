@@ -49,11 +49,18 @@ function doMutt(){
     fi
 }
 
+function doApple(){
+    echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
+    echo options hid_magicmouse scroll-speed=45 scroll-acceleration=1 | sudo tee -a /etc/modprobe.d/magicmouse.conf
+    sudo update-initramfs -u -k all
+}
+
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
     doIt
     doRhythmbox
     doMutt
     doPowerLine
+    doApple
 else
     read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1
     echo
@@ -71,5 +78,9 @@ else
     read -p "Install Powerline? (y/n)" -n 1
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         doPowerLine
+    fi
+    read -p "Install Apple? (y/n)" -n 1
+    if [[ $REPLY =~ ^[Yy]$ ]]; then
+        doApple
     fi
 fi
