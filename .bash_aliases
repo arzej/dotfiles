@@ -110,6 +110,24 @@ extract () {
 }
 # ==========================
 
+## grep
+# enable color support of ls and also add handy aliases
+alias grep='grep -n --color=auto'
+alias fgrep='fgrep -n --color=auto'
+alias egrep='egrep -n --color=auto'
+ 
+# my grep for code trace
+alias mygrep='grep -n --include "*.h" --include "*.c" --include "*.cpp" --color=auto'
+alias ccgrep='grep -n --include "*.c" --include "*.cpp" --color=auto'
+ 
+## diff
+# set default output format to standard patch format
+alias diff='diff -ruN'
+# diff two source tree, ignore non source code files
+# -x ignore folder
+# --exclude ignore generated files
+alias xdiff="diff -x '.*' -r -x 'out' -x 'Debug' -x '.git' --exclude='*.ko' --exclude='*.o' --exclude='*.a' --exclude='*.mod' --exclude='*.cmd' --brief"
+alias ydiff="diff -x '.*' -r -x 'out' -x 'Debug' -x '.git' --exclude='*.ko' --exclude='*.o' --exclude='*.a' --exclude='*.mod' --exclude='*.cmd'"
 
 # OTHERS ============
 # display weather :) (from icm)
