@@ -191,5 +191,8 @@ parse_svn_repository_root() {
     svn info 2>/dev/null | sed -ne 's#^Repository Root: ##p'
 }
 
-source /usr/share/git-core/contrib/completion/git-prompt.sh
+if [ -f /usr/share/git-core/contrib/completion/git-prompt.sh ]; then
+    source /usr/share/git-core/contrib/completion/git-prompt.sh
+fi
+
 PS1='\[\e[1;32m\][$(pwd)]\[\e[0m\]\[\e[1;33m\]$(__git_ps1)$(	parse_svn_branch) \[\e[0m\] \$ \[\e[0m\]'
