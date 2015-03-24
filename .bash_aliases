@@ -18,6 +18,7 @@ lt() {
 alias delpyc='find . -name "*.pyc" -delete'
 
 # jump back n directories at a time
+alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
