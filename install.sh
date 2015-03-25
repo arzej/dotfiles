@@ -9,8 +9,15 @@ function doIt() {
 }
 
 function doPowerLine(){
+	DIRECTORY=~/.powerline-shell/
 	cp ./.powerline-shell/config.py.dist ./.powerline-shell/config.py
-	./.powerline-shell/install.py
+	cd ./.powerline-shell/
+	./install.py
+	cd ..
+	if [ -d "$DIRECTORY" ]; then
+		rm -rf $DIRECTORY
+	fi
+	cp -r ./.powerline-shell/ $DIRECTORY
 }
 
 function doRhythmbox(){
