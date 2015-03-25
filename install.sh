@@ -57,6 +57,12 @@ function doMutt(){
 }
 
 function doApple(){
+    if [ -e "/etc/modprobe.d/hid_apple.conf" ]; then
+	sudo rm /etc/modprobe.d/hid_apple.conf
+    fi
+    if [ -e "/etc/modprobe.d/magicmouse.conf" ]; then
+	sudo rm /etc/modprobe.d/magicmouse.conf
+    fi
     echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
     echo options hid_magicmouse scroll-speed=45 scroll-acceleration=1 | sudo tee -a /etc/modprobe.d/magicmouse.conf
     sudo update-initramfs -u -k all
