@@ -138,3 +138,6 @@ alias poznan='eog "http://www.meteo.pl/um/metco/mgram_pict.php?ntype=0u&row=400&
 # ===================
 #
 alias log='watch -n 0.1 "dmesg | tail -n $((LINES-6))"'
+
+alias mc=". $HOME/.config/mc/mc-wrapper.sh"
+
