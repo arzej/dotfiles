@@ -1,0 +1,8 @@
+if ps $PPID | grep mc; then
+    if [ -z "$PS1CLASSIC" ]; then
+	PS1="(mc)[\u@\h \W]\$ "
+    else
+	PS1="$PS1CLASSIC"
+    fi
+fi
+

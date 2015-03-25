@@ -177,7 +177,7 @@ function _update_ps1()
 {
     export PS1="$(~/.powerline-shell/powerline-shell.py $? 2> /dev/null)"
 }
-#export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 
 parse_svn_branch() {
     parse_svn_url | sed -e 's#^'"$(parse_svn_repository_root)"'##g' | awk '{print " (svn::"$1")" }'
@@ -195,4 +195,4 @@ if [ -e /usr/share/git-core/contrib/completion/git-prompt.sh ]; then
     source /usr/share/git-core/contrib/completion/git-prompt.sh
 fi
 
-PS1='\[\e[1;32m\][$(pwd)]\[\e[0m\]\[\e[1;33m\]$(__git_ps1)$(	parse_svn_branch) \[\e[0m\] \$ \[\e[0m\]'
+export PS1CLASSIC='\[\e[1;32m\][$(pwd)]\[\e[0m\]\[\e[1;33m\]$(__git_ps1)$(	parse_svn_branch) \[\e[0m\] \$ \[\e[0m\]'
