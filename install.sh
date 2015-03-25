@@ -80,19 +80,27 @@ else
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         doIt
     fi
+    echo
     read -p "Install Rhytmbox plugin? (y/n)" -n 1
+    echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         doRhythmbox
     fi
+    echo
     read -p "Install Mutt configs? (y/n)" -n 1
+    echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         doMutt
     fi
+    echo
     read -p "Install Powerline? (y/n)" -n 1
+    echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         doPowerLine
     fi
+    echo
     read -p "Install Apple? (y/n)" -n 1
+    echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         doApple
     fi
