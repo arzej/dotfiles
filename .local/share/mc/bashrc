@@ -1,3 +1,24 @@
+parse_svn_branch() {
+    parse_svn_url | sed -e 's#^'"$(parse_svn_repository_root)"'##g' | awk '{print " (svn::"$1")" }'
+}
+
+parse_svn_url() {
+    svn info 2>/dev/null | sed -ne 's#^URL: ##p'
+}
+
+parse_svn_repository_root() {
+    svn info 2>/dev/null | sed -ne 's#^Repository Root: ##p'
+}
+
+if [ -e /usr/share/git-core/contrib/completion/git-prompt.sh ]; then
+    source /usr/share/git-core/contrib/completion/git-prompt.sh
+fi
+
+if [ -e ~/.git-completion.bash ]; then
+    source ~/.git-completion.bash
+fi
+
+
 if ps $PPID | grep mc; then
     if [ -z "$PS1CLASSIC" ]; then
 	PS1="(mc)[\u@\h \W]\$ "
