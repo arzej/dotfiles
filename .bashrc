@@ -168,6 +168,9 @@ fi
 export TERM="xterm-256color"
 export EDITOR="vim"
 
+# for mc
+export MC_SKIN=$HOME/.mc/solarized.ini
+
 ## MacOS
 # cleanup MacOS .DStore & ._* files
 alias rmmac='find . -iname ".DS*" -exec rm -rf {} \; ; find . -iname "._*" -exec rm -rf {} \;' 
