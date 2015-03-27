@@ -68,12 +68,18 @@ function doApple(){
     sudo update-initramfs -u -k all
 }
 
+function doGnomeTerminalSolarized(){
+    cd ./.gnome-terminal-colors-solarized
+    ./install.sh 
+}
+
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
     doIt
     doRhythmbox
     doMutt
     doPowerLine
     doApple
+    doGnomeTerminalSolarized
 else
     read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1
     echo
@@ -103,5 +109,11 @@ else
     echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         doApple
+    fi
+    echo
+    read -p "Install Gnome Terminal Solarized theme? (y/n)" -n 1
+    echo
+    if [[ $REPLY =~ ^[Yy]$ ]]; then
+        doGnomeTerminalSolarized
     fi
 fi
