@@ -34,6 +34,15 @@ set sig_dashes = no # don't append -- as I use only my name as a sig
 set attribution = " %n wrote:\n" # I don't like lengthy attributions as well alternates '(username|altusername)([-+].*)?@.*'
 set hdr_format="%4C %Z %{%m/%d} %-15.15F (%4c) %s" # format of the index
 
+#customize index view: 
+set index_format="%Z %{%a %d %b %Y} %3M %-15.15L │%s"
+
+#statusbar
+set status_chars  = " *%A"
+set status_format = "───[ Folder: %f ]─%V──[%r%m messages%?n? (%n new)?%?d? (%d to delete)?%?t? (%t tagged)? ]───%>─%?p?( %p postponed )?─── %l|%L"
+
+
+
 #======================================================#
 # Order of headers and what to show
 
